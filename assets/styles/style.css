@@ -743,7 +743,7 @@ footer .tabs a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: calc(250px * 10);
+  width: calc(400px * 10);
 }
 .slider .slide {
   height: 100px;
