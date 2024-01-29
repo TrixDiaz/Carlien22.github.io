@@ -1,0 +1,179 @@
+/* Responsive for tablet */
+@media screen and (max-width: 790px) {
+  /*---------------------*\
+    #Navigation
+\*----------------------*/
+  .hamburger {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+
+  /*---------------------*\
+    #Landing Page
+\*----------------------*/
+  .landingPage {
+    padding-block: 0;
+  }
+  .landingPage {
+    margin-block: 3em;
+  }
+  .landingPage div {
+    grid-template-columns: 1fr;
+  }
+  .landingPage .container {
+    margin-inline: 1em;
+  }
+  .profile-section {
+    order: -1; /* Move the profile-section to the top for smaller screens */
+    margin-bottom: 1em;
+    margin-block: 2em;
+  }
+  /*---------------------*\
+    #First Section
+\*----------------------*/
+  .title-buttons button {
+    margin-block: 0.5em;
+  }
+  .title-buttons button:nth-child(2) {
+    padding-inline: 1.8em;
+  }
+  .first-content {
+    order: 1; /* Move the first-content to the bottom for smaller screens */
+  }
+  /*---------------------*\
+    #Second Section
+\*----------------------*/
+
+  .profile-section {
+    order: -1; /* Move the profile-section to the top for smaller screens */
+    margin-bottom: 1em;
+  }
+  /*---------------------*\
+    #3 ways
+\*----------------------*/
+  .threeWays .grid-container-3 {
+    grid-template-columns: 1fr;
+  }
+  .moto {
+    margin-block: 1em;
+  }
+  /*---------------------*\
+    #Fourth Section
+\*----------------------*/
+  .fourth-section .grid-container-2 {
+    grid-template-columns: 1fr;
+  }
+  .description-title,
+  .description-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .description-title strong {
+    padding-inline: 0;
+  }
+  .description-title span {
+    padding-left: 0;
+  }
+  .description-subtitle {
+    margin-inline: 0;
+  }
+  .description-button {
+    margin-block: 1em;
+    text-align: center;
+  }
+  .parag br {
+    display: none;
+}
+  /*---------------------*\
+    #six Section
+\*----------------------*/
+  .six-section .grid-container-3 {
+    grid-template-columns: 1fr;
+  }
+  .six-section .grid-container-3 .content-image {
+    width: 100%;
+  }
+  .content-title p {
+    font-size: 2em;
+  }
+  .content-subtitle {
+    margin-block: 0;
+    margin-top: 1em;
+  }
+  .to-build{
+    margin-inline: 0;
+    margin-right: 5px;
+  }
+  .modal-content{
+    width: 100%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*---------------------*\
+    #Landing page
+\*----------------------*/
+  .landingPage .container {
+    margin-inline: 0;
+  }
+  .first-content div {
+    margin-inline: 1.5em;
+  }
+  /*---------------------*\
+    #3 ways
+\*----------------------*/
+  .threeWays {
+    padding-block: 1em;
+  }
+  .threeWays .container {
+    margin-inline: 1em;
+  }
+  /*---------------------*\
+    #Projects Content
+\*----------------------*/
+  .fourth-section .grid-container-2 {
+    margin-inline: 1em;
+  }
+  .fourth-section .grid-container-2 {
+    gap: 0;
+  }
+  /*---------------------*\
+    #Services Section
+\*----------------------*/
+  .six-section {
+    padding-block: 0;
+  }
+  .six-section .container {
+    margin-inline: 1em;
+  }
+  .six-section .grid-container-3 {
+    gap: 0;
+  }
+  /*---------------------*\
+    #Footer
+\*----------------------*/
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2em;
+  }
+  footer .tabs {
+    margin-block: 2em;
+  }
+  .footer .container {
+    margin-inline: 1em;
+  }
+  .profile {
+    max-height: 12rem;
+  }
+  #typing-text {
+    font-size: 1.2em;
+  }
+}
